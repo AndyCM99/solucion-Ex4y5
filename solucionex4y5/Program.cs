@@ -26,7 +26,7 @@ namespace ex03_ViajesMetroplus
                     Console.WriteLine("El dato ingresado no es válido. Intenta nuevamente!");
             }
 
-            // Aqui declaramos e inicializamos el arreglo de viajes
+            // Aqui declaramos e inicializamos el arreglo de viajes.
             Random aleatorio = new Random();
             Viaje[] losViajes = new Viaje[100];
 
