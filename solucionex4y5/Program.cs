@@ -1,8 +1,8 @@
-namespace ex03_ViajesMetroplus
+﻿namespace ex03_ViajesMetroplus
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             Console.WriteLine("Programa para simular viajes en Metroplus");
 
@@ -60,7 +60,7 @@ namespace ex03_ViajesMetroplus
                 $"fue {nombreRutaMenor} que transportó {pasajerosRutaMenor} pasajeros");
         }
 
-        static void ObtieneRutaMenorPasajeros(int[] totalPasajerosRuta,
+        public void ObtieneRutaMenorPasajeros(int[] totalPasajerosRuta,
                                               string[] nombresRutas,
                                               out string nombreRutaMenor,
                                               out int pasajerosRutaMenor)
@@ -85,7 +85,7 @@ namespace ex03_ViajesMetroplus
         /// </summary>
         /// <param name="totalesPasajerosRuta">Totales de pasajeros por ruta</param>
         /// <returns>Porcentaje del total de pasajeros por cada ruta</returns>
-        static float[] ObtienePorcentajeRuta(int[] totalesPasajerosRuta)
+        public float[] ObtienePorcentajeRuta(int[] totalesPasajerosRuta)
         {
             float[] porcentajeRuta = new float[totalesPasajerosRuta.Length];
 
